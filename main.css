@@ -1,0 +1,217 @@
+body,
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'lato';
+      overflow-x: hidden;
+}
+
+header {
+    background-color: #2e3e52;
+}
+
+header img {
+    margin:25px auto 5px auto;
+    display: block;
+}
+
+button {
+    background-color: #2e3e52;
+    color: white;
+    padding: 30px 50px;
+    line-height: 8px;
+    display: block;
+    margin: 40px auto;
+    font-size: 26px;
+    border-radius: 10px;
+    border:none;
+
+}
+
+
+.fam {
+    line-height: 35px;
+    margin:40px auto;
+}
+
+.head {
+    color:white;
+    font-size:45px;
+    text-align: center;
+    margin:150px auto 25px auto;
+    
+}
+
+.sub-head {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    width: 77%;
+    display: block;
+    margin: 0 auto 150px auto;
+    font-weight: 300;
+    word-spacing: 0px;
+}
+
+#one {
+    background-image: url(../images/bg-header.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+}
+
+
+a {
+    text-decoration: none!important;
+}
+
+button:hover {
+    background-color:orange;
+}
+
+
+ul#menu li {
+    display:inline;
+}
+
+
+.investor-name {
+    font-size:30px;
+}
+
+.right-fam {
+    display: inline-block;
+    line-height: 15px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+
+}
+
+ul {
+        line-height: 7px;
+    list-style: none;
+
+}
+
+#investor-profile ul li {
+    background-image: url(../images/world.png);
+    background-repeat: no-repeat;
+    position: relative;
+    right: 39px;
+    padding-bottom: 10px;
+    
+}
+
+#investor-profile ul .special-li {
+    background-image: url(../images/pin-drop.png);
+    background-repeat: no-repeat;
+    position: relative;
+    right: 39px;
+    padding-bottom: 10px;
+}
+
+#investor-profile .sub-li {
+    margin-bottom: 7px;
+    position: relative;
+    font-size: 16px;
+    left: 24px;
+    top: 2px;
+}
+
+#investor-profile .subs {
+    font-size:16px;
+}
+
+.investor-info {
+    line-height: 18px;
+}
+
+.left-fam {
+    border-style: outset!important;
+    border-width: 0px 1px 1px 0px;
+    position: relative;
+
+}
+
+.right-border {
+        border-style: outset!important;
+    border-width: 0px 0px 1px 1px;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========== Mobile First Method  ==========*/
+
+
+
+@media only screen and (max-width: 481px) {
+  
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+  
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+    
+   
+}
+
+@media only screen and (min-width: 667px) and (max-width: 991px) {
+
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    
+ 
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+
+}
+    
+@media only screen and (max-width: 1150px) {
+
+    
+}
+
+
