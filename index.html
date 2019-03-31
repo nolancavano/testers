@@ -2,24 +2,7 @@
 <html lang="en">
 
 <head>
-       <!--- Google Tag Manager --->
-    <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-ND5D2R');
-    </script>
-    <!-- End Google Tag Manager -->
+      
     <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -48,91 +31,271 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" href="https://cdn2.hubspot.net/hubfs/4094849/Tool%20Kit/logoostad.png" type="image/x-icon" />
     <link rel="stylesheet" href="css/animations.css">
-    <link href="//fonts.googleapis.com/css?family=Lato:100,300,400,500,600,700,400" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     
     <style>
+        body {
+        font-family: 'Roboto Mono', monospace;
+        }
+        
         #one {
-            background-image: url(https://cdn2.hubspot.net/hubfs/4094849/Tool%20Kit/background-two.png);
-            -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-            padding-bottom: 1000px;
-   
+            
+                padding-left: 30px;
+            padding-bottom:600px;
+        }
+
+        .menu-fam {
+                margin: 20px auto;
+            
         }
         
-        .fam {
-            margin:30px auto;
-            display:block;
+        .main-box {
+            padding: 20px;
         }
         
-        .fam img:hover {
-            cursor: pointer;
+          a {
+ 
+              color:black;
+    
+    }
+        .em:hover {
+            color:yellow;
+            cursor:pointer;
+            
+        }
+        a:hover {
+            text-decoration:none;
+              color:pink;
+            cursor:pointer;
         }
         
-        .top-text {
-            margin:350px auto 0px auto;
-            color:pink;
-            font-size:60px;
-            text-align:center;
+        .copyright { text-align: center;
+        
         }
         
-        .top-text:hover {
-            color:hotpink;
+        iframe {
+            
+            height:450px;
+        }
+        
+        #one, footer {
+            background-color:beige;
+            
+        }
+        
+        footer {
+            padding-bottom:20px;
+            
         }
         
         @media only screen and (max-width: 481px) {
+            iframe {
+                height:100%;
+            }
             
-            .top-text {
-            margin:30px auto 0px auto;
-            color:pink;
-            font-size:60px;
-            text-align:center;
-        }
+            .photo-box img {
+                
+                width:100%;
+            }
             
         }
         
-    
     </style>
+    
+    
+    <script>
+$(document).ready(function(){
+        $("#home").click(function(){
+        $("#main-box").show();
+        $("#music-box").hide();
+         $("#dates-box").hide();
+         $("#reviews-box").hide();
+         $("#contact-box").hide();
+         $("#photo-box").hide();
+       });
+    
+    
+    
+    $("#music").click(function(){
+        $("#music-box").show();
+        $("#main-box").hide();
+         $("#dates-box").hide();
+         $("#reviews-box").hide();
+         $("#contact-box").hide();
+         $("#photo-box").hide();
+      
+    });
+    
+        $("#dates").click(function(){
+        $("#dates-box").show();
+        $("#main-box").hide();
+         $("#music-box").hide();
+         $("#reviews-box").hide();
+         $("#contact-box").hide();
+         $("#photo-box").hide();
+        
+    });
+    
+         $("#reviews").click(function(){
+        $("#reviews-box").show();
+        $("#main-box").hide();
+         $("#music-box").hide();
+         $("#dates-box").hide();
+         $("#contact-box").hide();
+         $("#photo-box").hide();
+      
+    });
+    
+       
+         $("#contact").click(function(){
+        $("#contact-box").show();
+        $("#main-box").hide();
+         $("#music-box").hide();
+         $("#dates-box").hide();
+         $("#reviews-box").hide();
+         $("#photo-box").hide();
+       
+    });
+    
+       
+         $("#photo").click(function(){
+        $("#photo-box").show();
+        $("#main-box").hide();
+         $("#music-box").hide();
+         $("#dates-box").hide();
+         $("#contact-box").hide();
+         $("#reviews-box").hide();
+      
+    });
+    
+  
+  
+});
+</script>
+
+    
+    
+  
 </head>
 
 <body>
-       <!-- Google Tag Manager -->
-    <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-ND5D2R');
-    </script>
-    <!-- End Google Tag Manager -->
+       
 
+    
    <section id="one">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="top-text">Website Coming Soon... MiKE!!</p>
-                    
-                   
+    
+              <div class="row">
+                  <div class="col-md-2">
+                      <a href="#main-box"> <div id="home" class="doom-text">oregon space trail of doom</div></a>
+       <div class="menu-fam">
+           <a href="#music-box"><div id="music" class="doom-text">music</div></a>
+           <a href="#dates-box"><div id="dates"  class="doom-text">dates</div></a>
+           <a href="#reviews-box"><div id="reviews"  class="doom-text">press</div></a>
+           <a href="#contact-box"><div id="contact"  class="doom-text">contact</div></a>
+            <a href="#photo-box"><div id="photo"  class="doom-text">photos</div></a>
+           </div>
+</div>
+
+
+            <div class="col-md-8">
+                <div id="main-box" class="main-box">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/J18f-RahGg4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
                 </div>
-          
+                
+                <div style="display:none;background-color:;padding:20px;" id="music-box" class="music-box">
+                         <div class="content row">
+            <div class="col-md-8 offset-md-2">
+                <p> <iframe src="https://open.spotify.com/embed/album/1lEVLY3LtN3IbSte14tjpv" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></p>
+                <p><iframe src=" https://open.spotify.com/artist/2at2m0Z2AnlZYgIVzwMJ9p?si=GVmypkYhQ8izh_YQPy4nWg" height="56" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></p>
+               
             </div>
-            <div class="row">
+            <div class="col-sm-5">
+                <img src="Images/Poster1.18.19.jpg" alt="" class="img-responsive" />
+            </div>
+        </div>
+
+                
+                </div>
+                
+             
+                
+                
+                <div style="display:none;background-color:pink;padding:20px;" id="dates-box" class="dates-box">
+                    <div class="date">04/15 Winchester Music Tavern - Cleveland, OH</div>
+                    <div class="date">04/19 The Fairy Garden - Columbus, OH</div>
+                    <div class="date">04/20 The Union - Athens, OH</div>
+                    <div class="date">04/21 Beachland Tavern - Cleveland, OH</div>
+                    <div class="date">05/03 Happy Dog - Cleveland, OH</div>
+                    <div class="date">05/18 Annabelle's - Akron, OH</div>
+                    <div class="date">05/24 Columbus Psych Fest - Columbus, OH</div>
+                    <div class="date">05/25 Musica - Akron, OH</div>
+                    <div class="date">05/31 Grog Shop - Cleveland, OH</div>
+                    <div class="date">06/14 The Ottawa Tavern - Toledo, OH</div>
+                    <div class="date">06/15 Westside Music Fest - Youngstown, OH</div>
+                    <div class="date">06/22 Annabelle's - Akron, OH</div>
+                    <div class="date">06/27 Beachland Tavern - Cleveland, OH</div>
+                    <div class="date">07/27 Beachland Tavern - Cleveland, OH</div>
+                    <div class="date">08/10 Pressure Fest - Cleveland, OH</div>
+                    <div class="date">08/30 Jilly's - Akron, OH</div>
+                    <div class="date">09/27 Ingenuity Fest - Cleveland, OH</div>
+                
+                </div>
+                 <div style="display:none;" id="reviews-box" class="reviews-box">
+                     
+                    <a href="https://www.clevescene.com/scene-and-heard/archives/2019/03/28/local-indie-rock-act-oregon-space-trail-of-doom-releases-a-new-music-video target="_blank"">
+                    <div style="padding-top:50px;" class="article">Cleveland Scene Magazine</div>
+                        </a>
+                     
+                     <a href="https://www.cleveland.com/entertainment/2019/03/were-just-controlled-chaos-hear-oregon-space-trail-of-dooms-new-single.html target="_blank""><div class="article">Cleveland.com</div></a>
+                     
+                     <a href="https://coolcleveland.com/2019/03/clevelands-oregon-space-trail-of-doom-releases-its-first-cd-at-the-happy-dog/ target="_blank""><div class="article">Cool Cleveland</div></a>
+                     
+                     <a href="https://www.tun.com/blog/7-cleveland-bands-for-college-music-fans-to-keep-an-eye-on/?fbclid=IwAR19aaemYFYcxAkn3VoxZVCO-uX-wCYhw-kv9UtOxE6gz8ggiN59DLaKlfU target="_blank""><div class="article">Tun.com</div></a>
+                     
+                     
+                     <a href="https://themessmedia.com/kind-fest-shaping-up-to-be-nice/?fbclid=IwAR1uXVittHuwi2IVcdAf6DZRs8T_71CZGieZPaQfT1TJ7HuYz09nkJcPHak target="_blank""><div class="article">The Mess Media</div></a>
+                     
+                
+                </div>
+                 <div style="display:none;background-color:pink;padding:20px;" id="contact-box" class="contact-box">
+                      <p>booking/inquiries:<a class="em" href="mailto:oregonspacetrailofdoom@gmail.com">oregonspacetrailofdoom@gmail.com</a></p>
+                
+                </div>
+                 <div style="display:none;background-color:blue;padding:20px;" id="merch-box" class="merch-box">
+                
+                </div>
+                  <div style="display:none;" id="photo-box" class="photo-box">
+                      <div class="row">
+                      <div class="col-md-12">
+                          <img style="display:block;margin:50px auto;" src="https://cdn2.hubspot.net/hubfs/4094849/Giving%20Away%20The%20Farm/41773979_1002932416575911_4151075003841904640_n%20(2).jpg">
+                           <img style="display:block;margin:20px auto;" src="https://cdn2.hubspot.net/hubfs/4094849/Giving%20Away%20The%20Farm/Screen%20Shot%202018-11-21%20at%2012.15.25%20PM.png">
+                           <img style="display:block;margin:20px auto;" src="https://cdn2.hubspot.net/hubfs/4094849/Giving%20Away%20The%20Farm/50116109_2276638162360596_5835282554214678528_n.jpg">
+                      
+                      </div>
+                </div>
+                </div>
+            
+            </div>
+</div>
+                
+
+
+       </section>
+    
+
+  
+    
+    
+    
+    <footer>
+      <div class="row">
                 <div class="col-md-8 offset-md-2 text-center">
                     <div class="fam">
-                        <a href="https://www.youtube.com/watch?v=Th8rYEwZe5U" target="blank">
+                        <a href="https://www.youtube.com/channel/UCBRod-gG4BhMK5m7atSsmig?&ab_channel=OregonSpaceTrailOfDoom" target="blank">
                  <img src=http://static.hsappstatic.net/social_shared/static-2.4560/img/followme/icon_youtube.png>
                             </a>
                
@@ -149,40 +312,89 @@
 </div>
                      </div>
             </div>
-       </div>
-    </section>
-    
-    
-    
-    <footer>
-
+          <div class="row">
+            <div class="col-md-6 offset-md-3">
+                  <div class="copyright">oregon space trail of doom &copy; 2019  </div>
+                </div>
+          </div>
     </footer>
     
  
-    
+     
 
-    
-    
-    
-    
-    
-  
-    
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
-        
-    <script>
-$(document).ready(function(){
-    $("button").click(function(){
-        $(".sub").toggle();
-        $(".placeholder").show();
-      });
-});
-</script>
-     <script src="js/css3-animate-it.js"></script>
 
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
